@@ -638,7 +638,7 @@ header .navbar ul li a:hover {
   padding: 1rem;
 }
 .work .heading span {
-  color: rgb(255, 230, 0);
+  color: profile-pic.png;
 }
 .work .box-container {
   display: flex;
@@ -677,7 +677,7 @@ header .navbar ul li a:hover {
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
+  background: #fd9400;
 }
 .work .box-container .box .content .tag h3 {
   font-size: 2rem;
@@ -711,7 +711,8 @@ header .navbar ul li a:hover {
   margin-right: 2rem;
 }
 .work .desc .btns .btn:hover {
-  background: #310ae0f5;
+  background: #ffd000;
+  color: black;
 }
 .work .viewall {
   display: flex;

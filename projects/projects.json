@@ -2,11 +2,11 @@
   {
     "name": "New Portfolio Website",
     "desc": "Portfolio Website is a personal platform to showcase skills, projects, and achievements to potential employers or clients.",
-    "image": "Screenshot (40)",
-    "category": "mern",
+    "image": "Screenshot (45)",
+    "category": "basicweb",
     "links": {
-      "view": "https://jan-seva-kendra-phi.vercel.app/",
-      "code": "https://github.com/developertarun01/Jan-Seva-Kendra-2"
+      "view": "/",
+      "code": "https://github.com/developertarun01/New-Portfolio-Website"
     }
   },
   {
