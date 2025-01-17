@@ -321,7 +321,8 @@ header .navbar ul li a:hover {
     margin-top: 12rem;
   }
   .home .image img {
-    margin-top: -12rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
   }
   .home .content p {
     font-size: 2.2rem;
@@ -638,7 +639,7 @@ header .navbar ul li a:hover {
   padding: 1rem;
 }
 .work .heading span {
-  color: profile-pic.png;
+  color: #fd9400;
 }
 .work .box-container {
   display: flex;
