@@ -225,11 +225,11 @@
       <div class="container right">
         <div class="content">
           <div class="tag">
-            <h2>Freelancing</h2>
+            <h2>ZIDIO Development</h2>
           </div>
           <div class="desc">
-            <h3>Web Developer</h3>
-            <p>Nov 2024 - present</p>
+            <h3>Web Developer | Internship</h3>
+            <p>Jan 2025 - present</p>
           </div>
         </div>
       </div>
@@ -317,6 +317,14 @@
           </div>
         </form>
 
+        <!-- Popup Container -->
+        <div id="popup"
+          style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #000031; color: white; padding: 20px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); text-align: center; z-index: 1000;">
+          <p id="popup-message" style="margin: 0; font-size: 18px;">Form Submitted Successfully!</p>
+          <button onclick="closePopup()"
+            style="margin-top: 10px; background-color: #fd9400; color: black; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;"><b>OK</b></button>
+        </div>
+
         <script>
           document.getElementById("contact-form").addEventListener("submit", async function (e) {
             e.preventDefault(); // Prevent the default form submission
@@ -333,18 +341,29 @@
                 mode: "no-cors", // Required for Google Forms
               });
 
-              alert("Form Submitted Successfully!");
+              // Show the popup
+              showPopup("Form Submitted Successfully!");
 
               // Clear the form fields
               form.reset();
-
-              // Redirect to your website
-              window.location.href = "https://developertarun.netlify.app/"; // Replace with your website URL
             } catch (error) {
               console.error("Error submitting form:", error);
-              alert("There was an error submitting the form. Please try again.");
+              showPopup("There was an error submitting the form. Please try again.");
             }
           });
+
+          function showPopup(message) {
+            const popup = document.getElementById("popup");
+            const popupMessage = document.getElementById("popup-message");
+            popupMessage.textContent = message;
+            popup.style.display = "block";
+          }
+
+          function closePopup() {
+            const popup = document.getElementById("popup");
+            popup.style.display = "none";
+            window.location.href = "https://developertarun.netlify.app/"; // Replace with your website URL
+          }
         </script>
 
       </div>
