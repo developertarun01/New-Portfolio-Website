@@ -1,7 +1,17 @@
 [
   {
+    "name": "Fitness Trainer",
+    "desc": "Fitness Trainer Portfolio Website is a personal platform to showcase skills and achievements to potential clients.",
+    "image": "Screenshot (47)",
+    "category": "wordpress",
+    "links": {
+      "view": "http://heyecom.free.nf/",
+      "code": "https://github.com/developertarun01/"
+    }
+  },
+  {
     "name": "Ecommerce Website",
-    "desc": "HeyEcom is your all-in-one eCommerce platform. Create a fully customizable free eCommerce website & upgrade to start selling everywhere.",
+    "desc": "HeyEcom is your all-in-one eCommerce platform. Create a fully customizable eCommerce website & start selling everywhere.",
     "image": "Screenshot (46)",
     "category": "wordpress",
     "links": {
