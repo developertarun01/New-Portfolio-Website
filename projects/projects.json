@@ -1,5 +1,15 @@
 [
   {
+    "name": "Dentist Website",
+    "desc": "A Dentist Portfolio Website is a personal platform to showcase their expertise and achievements to attract more clients.",
+    "image": "Screenshot (61)",
+    "category": "wordpress",
+    "links": {
+      "view": "http://demo-website-1.free.nf/",
+      "code": "https://github.com/developertarun01/"
+    }
+  },
+  {
     "name": "Fitness Trainer Website",
     "desc": "Fitness Trainer Portfolio Website is a personal platform to showcase skills and achievements to potential clients.",
     "image": "Screenshot (47)",
