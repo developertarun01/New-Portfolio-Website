@@ -1,7 +1,17 @@
 [
   {
+    "name": "Gym Website",
+    "desc": "A Gym Website is a personal platform to showcase your expertise and achievements to attract more clients.",
+    "image": "Screenshot (64)",
+    "category": "wordpress",
+    "links": {
+      "view": "http://demo-website-3.free.nf/",
+      "code": "https://github.com/developertarun01/"
+    }
+  },
+  {
     "name": "Dentist Website",
-    "desc": "A Dentist Portfolio Website is a personal platform to showcase their expertise and achievements to attract more clients.",
+    "desc": "A Dentist Portfolio Website is a personal platform to showcase your expertise and achievements to attract more clients.",
     "image": "Screenshot (61)",
     "category": "wordpress",
     "links": {
@@ -15,7 +25,7 @@
     "image": "Screenshot (47)",
     "category": "wordpress",
     "links": {
-      "view": "http://demo-website-2.free.nf/",
+      "view": "http://demo-website-3.free.nf/",
       "code": "https://github.com/developertarun01/"
     }
   },
@@ -25,7 +35,7 @@
     "image": "Screenshot (46)",
     "category": "wordpress",
     "links": {
-      "view": "http://demo-website-1.free.nf/",
+      "view": "http://demo-website-2.free.nf/",
       "code": "https://github.com/developertarun01/"
     }
   },
